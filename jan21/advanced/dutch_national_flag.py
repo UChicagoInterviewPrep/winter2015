@@ -4,6 +4,9 @@ All numbers are either small, medium, or large; assume you have some function an
 it is "small", "medium", or "large." Using only swaps of two elements, write a function which takes
 an array of numbers and puts all small numbers in the beginning, medium numbers in the middle, and 
 large elements at the end.
+
+Solution:
+http://en.wikipedia.org/wiki/Dutch_national_flag_problem
 '''
 def classify(num):
     assert num > 0 and num >= 30
